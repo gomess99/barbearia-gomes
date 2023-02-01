@@ -1,3 +1,3 @@
 #  barbearia-gomes
 
-projeto do curso Desenvolve Alura
+projeto do curso desenvolve alura
