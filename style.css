@@ -70,7 +70,7 @@ nav a{
 
 .titulo-secundario{
     color: #000000;
-    filter: drop-shadow(3px 3px 1px #888888);
+    filter: drop-shadow(1px 2px 1px #888888);
     width: 45%;
     word-spacing: 15px;
     margin: 0 auto;
@@ -124,6 +124,11 @@ nav a{
     font-size: 16px;
 }
 
+.mais:active{
+    background: #888888;
+    transition: none;
+}
+
 .descricao{
     display: block;
     background: #000000;
@@ -154,7 +159,7 @@ div#img1{
     top: 0;
     left: 0;
     opacity: 1;
-    box-shadow: inset 10px 10px 200px 10px #000000;
+    box-shadow: inset 10px 10px 100px -5px #000000;
     /*1- eixo x, 2- eixo y, 3-opacidade/borrado, 4-size */
 }
 
@@ -202,4 +207,154 @@ div#img1{
 .mapa{
     text-align: center;
 
+}
+
+.icons-benef{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icons-benef h2{
+    padding: 50px;
+}
+
+.icons-benef h2 strong{
+    font-weight: bold;
+}
+
+.lista{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.lista li{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 30px 30px;
+    margin: 0 1.5%;
+    line-height: 50px;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+}
+
+.imgbenef{
+   width: 90%;
+}
+
+.lista li:hover{
+    font-size: 16px;transition: 1s;
+}
+
+footer{
+    position: relative;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+ 
+}
+
+div.img-bg:not(.rodape){
+    background-attachment: fixed;
+}
+
+div#img2:not(.rodape){
+    width: 50%;
+    box-shadow: inset -30px 0px 100px 30px #000000;
+    /*1- eixo x, 2- eixo y, 3-opacidade/borrado, 4-size */
+    opacity: 0.4;
+    width: 42%;
+    height: 500px;
+    background-image: url(imagens/bg-fundo.jpg);
+}
+
+.rodape{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 50%;
+    height: auto;
+    color: #FFFFFF;
+    clear: left;
+}
+
+
+.titulo-app{
+    padding: 28px 0;
+    font-size: 30px;
+}
+
+.app{
+    vertical-align: top;
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.app a{
+    text-decoration: none;
+    color: #888888;
+    line-height: 50px;
+}
+
+.app li{
+    text-align: start;
+    justify-items: center;
+}
+
+.sobre{
+    padding: 5px;
+    width: 50%;
+    height: 200px;
+    line-height: 25px;
+}
+
+.sobre p{
+    text-align: justify;
+    color: #888888;
+}
+
+.copyright{
+    position: relative;
+    display: block;
+    padding: 40px 50px;
+    height: 20px;
+    background: #171717fe;
+    
+}
+
+.text-copyright{
+    
+    color: #FFFFFF;
+    line-height: 30px;
+}
+
+.redes{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin: 0 50px;
+    float: inline-end;
+    
+    font-size: 20px;
+
+}
+
+.redes li{
+    display: list-item;
+	margin: 0 0 0 30px;
+    float: right;
+    
+}
+
+.redes a{
+    color: #888888;
+}
+
+.redes ul{
+    list-style: none outside;
 }
