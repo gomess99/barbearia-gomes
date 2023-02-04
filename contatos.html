@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Gomes</title>
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contatos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/47dbfe7582.js" crossorigin="anonymous"></script>    
+</head>
+<body>
+    <header>
+
+        <section>
+            <div class="cabecalho">
+                
+                <h1><img class="logo" src="imagens/logo.png" alt=""></h1>
+    
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contatos.html">Contatos</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+        </section>
+        
+    </header>
+
+    <main>
+        <section class="dados">
+            <div id="img-bg" class="bg-dados"></div>
+
+            <div class="conteudo-dados">
+                <form action="">
+
+                    <label for="nome">Nome e sobrenome</label>
+                    <input type="text" id="nome" class="input-padrao" required>
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="number" id="telefone" class="input-padrao" required placeholder="(XX) X XXXX-XXXX">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea style="border-radius: 20px; background: #838383;" name="" id="mensagem" cols="32" rows="10"></textarea>
+                </form>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>Email</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" value="telefone">Telefone</label>
+
+                    <label for="radio-whatsApp"><input type="radio" name="contato" id="radio-whatsapp" value="whatsapp">WhatsApp</label>
+
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+
+                    <label for=""><input type="checkbox" name="" id="" checked>Gostaria de receber nossas novidades por email?</label>
+
+                    <input type="submit" value="Enviar Formulário" class="enviar">
+                </fieldset>
+            </div>
+        </section>
+    </main>
+
+    <footer id="Footer">
+        <section class="footer">
+            <div class="img-bg" id="img2">
+            </div>
+            <div class="rodape">
+                <div class="app">
+                    <h2 class="titulo-app">Nosso App</h2>
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-google-play"></i> Play Store</a></li>
+                        
+                        <li><a href=""><i class="fa-brands fa-apple"></i> Apple Store</a></li>                        
+                    </ul>
+                </div>
+
+                <div class="sobre">
+                    <h2 class="titulo-app">A Barbearia Gomes</h2>
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis odit veritatis voluptas doloremque recusandae incidunt quibusdam ipsa nulla, aliquam assumenda dignissimos facilis saepe quas quidem ea a ratione minus.</p>
+                </div>
+            </div>
+            
+        </section>
+            <section class="copyright">
+                <div class="text-copyright">
+                    <p>BARBEARIA GOMES | DIREITOS RESERVADOS | &copy; Copyright 2022 |</p>
+                    
+                </div>
+                <ul class="redes">
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                </ul>
+            </section>
+        </section>
+        
+    </footer>
+    <div class="borda"></div>  
+</body>
+</html>

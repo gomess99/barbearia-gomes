@@ -2,7 +2,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-
 .borda{
     pointer-events: none;
     position: fixed;
@@ -58,68 +57,114 @@ nav a{
     
 }
 
-.lista{
-    width: 1380px;
+.dados{
+    position: relative;
+    display: block;
     margin: 0 auto;
-    padding: 50px 0;
-}
-
-.titulo-principal{
-    font-size: 50px;
-    text-align: center;
-    padding: 30px 0 0 0;
-    filter: drop-shadow(1px 2px 1px #888888);
-}
-
-.itens{
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    box-sizing: border-box;
-    margin: 0 1.5%;
-    border: 2px solid #000000;
-    border-radius: 10px 10px 10px 10px;
-    cursor: pointer;
-    background: #e0dede99;
-}
-
-.itens:hover{
-    box-shadow: 10px 10px 100px -5px #000000;
-}
-
-.itens:active{
-    box-shadow: inset 10px 10px 100px -5px #000000;
-    
-}
-
-.itens:hover h2{
-    font-size: 45px;
-}
-
-.itens img{
     width: 100%;
-    padding: 30px 10px;
-    transition: 1s;
+    height: 500px;
 }
 
-.titulo-produto{
-    font-size: 40px;
-    padding: 30px;
-    font-weight: bold;
-    transition: 1s;
+
+.bg-dados{
+    box-shadow: inset 70px 0 50px 10px #4f4f4f;
+    width: 700px;
+    height: 100%;
+    background-attachment: fixed;
+    background-image: url(imagens/barbeiro.jpg);
+    background-size: 50%;
+    float: right;
 }
 
-.precos{
-    font-size: 35px;
-    padding: 20px auto;
-    font-weight: bold;
-    transition: 1s;
+.conteudo-dados{
+    position: relative;
+    background: #4f4f4f;
+    padding: 20px 31px;
+    width: 50%;
 }
 
-.descricao{
-    padding: 30px;
+form, fieldset{
+    width: 30%;
+    line-height: 30px;
+}
+
+form label, form legend{
+    display: block;
     font-size: 20px;
-    
+    margin: 0 0 10px; /*aplica uma margem para baixo*/
+
+}
+
+fieldset{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 50%;
+    margin-top: 20px;
+    display: block;
+    height: 500px;
+}
+
+fieldset label, legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 15px; /*aplica uma margem para baixo*/
+
+}
+
+fieldset label{
+    margin: 20px 0;
+    padding: 1px;
+}
+
+select{
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    background: transparent;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 1s;
+}
+
+option{
+    color: #000000;
+}
+
+textarea{
+    box-shadow: 2px 2px 5px 0px #000000;
+}
+
+.input-padrao{
+    box-shadow: 2px 2px 5px 0px #000000;
+    background: #838383;
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 50px;
+    border-radius: 100px;
+}
+
+.enviar{
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    background: transparent;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.enviar:hover{  
+    color: #FFFFFF;
+    box-shadow: 0 0 10px #ffffff;
+    font-size: 16px;
+}
+
+.enviar:active{
+    background: #888888;
+    transition: none;
 }
 
 
